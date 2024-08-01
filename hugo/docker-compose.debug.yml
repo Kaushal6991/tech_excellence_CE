@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  pelotonproject:
+    image: pelotonproject
+    build:
+      context: .
+      dockerfile: ./Dockerfile
